@@ -18,8 +18,10 @@ function animationLoop() {
     
     // Kommentiere hier (d)
     // 
-    dot.setAttribute("cx", Math.random())
-    dot.setAttribute("cy", Math.random())
+    let x = Math.random()
+    let y = Math.random()
+    dot.setAttribute("cx", x)
+    dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
     // Kommentiere hier (e)
