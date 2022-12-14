@@ -17,8 +17,11 @@ let digits = 1
 let m = 100**digits
 let repetitions = 1
 let count = 0
+ 
 
 function start() {
+    const button = document.querySelector("START");
+
     running = true
     circle1.setAttribute("cx", 80)
     circle2.setAttribute("cx", 20)
@@ -26,7 +29,18 @@ function start() {
     v1 = -1
     v2 = 0
     window.requestAnimationFrame(animationLoop)
+
 }
+
+// Hab die Funktion requestAnimationFrame dennoch nicht gefunden. Demnach hab ich einfach eine neue erstellt.
+function requestAnimationFrame() {
+if (cx2 <= 95) {
+  requestAnimationFrame();
+
+}
+}
+
+
 
 function animationLoop() {
     
@@ -80,3 +94,12 @@ function newVelocity(v1, v2) {
 function displayNumber() {
     return (count / 10**digits).toFixed(digits)
 }
+
+function stop () {
+    const button = document.querySelector("STOP");
+    function stop() {
+     running = false;
+      }
+
+}
+
