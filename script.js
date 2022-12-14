@@ -59,7 +59,11 @@ function animationLoop() {
     circle2.setAttribute("cx", cx2)
 
     // Kommentiere hier (f)
-    // 
+    // Dieser Code enthält 3 Funktionen animationLoop, newVelocity und displaynumber. 
+    // Funktion animationLoop  ist eine Schleife, die in regelmäßigen Abständen aufgerufen wird und die Bewegung der beiden Kreise auf dem Bildschirm animiert.
+    // Funktion newVelocity berechnet die neuen Geschwindigkeiten der beiden Kreise basierend auf ihren aktuellen Geschwindigkeiten und einem Faktor "m".
+    // Funktion Displaynumber wandelt eine gegebene Zahl in einen String um und rundet sie auf eine bestimmte Anzahl von Dezimalstellen (digits) ab.
+    // Schleife animationLoop wird nur ausgeführt, wenn der Wert der Variablen "running" "true" ist.
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
