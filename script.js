@@ -17,8 +17,11 @@ let digits = 1
 let m = 100**digits
 let repetitions = 1
 let count = 0
+ 
 
 function start() {
+    const button = document.querySelector("START")
+
     running = true
     circle1.setAttribute("cx", 80)
     circle2.setAttribute("cx", 20)
@@ -27,6 +30,7 @@ function start() {
     v2 = 0
     window.requestAnimationFrame(animationLoop)
 }
+const button = document.querySelector("START");
 
 function animationLoop() {
     
