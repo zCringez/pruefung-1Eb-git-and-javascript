@@ -43,7 +43,9 @@ function animationLoop() {
     }
 
     // Kommentiere hier (d)
-    // 
+    // Dieser Code fügt die aktuellen Geschwindigkeiten der beiden Kreise zu ihren x-Koordinaten hinzu, um die neuen x-Koordinaten der Kreismittelpunkte zu berechnen.
+    // Hierbei wird die Geschwindigkeit durch die Anzahl ("repetitions") geteilt, um die Änderung der x-Koordinate  (in kleinen Schritten) darzustellen.
+    // Nach Ausführung dieser Anweisung werden die neuen x-Koordinaten in den Variablen "cx1" und "cx2" gespeichert.
     cx1 = cx1 + v1 / repetitions
     cx2 = cx2 + v2 / repetitions
 
