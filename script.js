@@ -69,6 +69,8 @@ for (let i = 0; i < repititions; i++) {
     // Code, der in der Schleife ausgeführt werden soll
   }
   
+  // 4h verstehe es nicht ganz aber grundäsätzlich: Wenn der Befehl document.getElementById('Zahl').textContent = displayNumber(); ausgeführt wird, wird der textContent des Elements mit der ID Zahl auf das Ergebnis der Funktion displayNumber gesetzt.
+  
 
       
 
