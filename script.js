@@ -61,6 +61,11 @@ function animationLoop() {
         v1 = -v1;
         count += 2;
       }
+      
+for (let i = 0; i < repititions; i++) {
+    // Code, der in der Schleife ausgeführt werden soll
+  }
+  
 
       
 
