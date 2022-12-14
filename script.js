@@ -52,6 +52,9 @@ function animationLoop() {
     // End Loop
     
     // Kommentiere hier (e)
+    // Dieser Code ändert die x-Koordinaten der beiden Kreise, indem er die neu berechneten Werte in den Kreiselementen setzt. 
+    //SetAttribute-Methode wird verwendet, um das Attribut "cx"  (das die x-Koordinate des Kreismittelpunkts darstellt) in den beiden Kreiselementen auf die neuen Werte in den Variablen cx1 und cx2 zu setzen. 
+    //Auf diese Weise werden die Kreise an ihren neuen Positionen auf der x-Achse gezeichnet.
     circle1.setAttribute("cx", cx1)
     circle2.setAttribute("cx", cx2)
 
