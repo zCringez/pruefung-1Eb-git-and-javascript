@@ -54,8 +54,10 @@ function animationLoop() {
     // Start Loop
     if (cx1 > cx2 + 10) {
         ({v1, v2} = newVelocity(v1, v2));
+      } if (circlesCollide()) {
+        count++;
       }
-      
+
       
 
     // Kommentiere hier (d)
