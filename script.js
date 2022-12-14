@@ -87,6 +87,9 @@ function displayNumber() {
 
 function stop () {
     const button = document.querySelector("STOP");
-
+    function stop() {
+     running = false;
+      }
 
 }
+
