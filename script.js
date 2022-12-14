@@ -57,6 +57,10 @@ function animationLoop() {
       } if (circlesCollide()) {
         count++;
       }
+      if (blueCircleTouchesLeftEdge()) {
+        v1 = -v1;
+        count += 2;
+      }
 
       
 
