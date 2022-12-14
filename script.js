@@ -124,3 +124,5 @@ function stop () {
 
 }
 
+
+// background-color: rgb(98, 135, 71); ich glaube das ist von alice dswg entferne ich das bei aufgabe c (hatte beide veränderungen akzeptiert und sah nicht was wem gehörte)
