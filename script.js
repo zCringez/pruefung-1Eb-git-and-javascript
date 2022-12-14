@@ -31,7 +31,9 @@ function start() {
 function animationLoop() {
     
     // Kommentiere hier (c)    
-    // 
+    // Dieser Code definiert 2 Variabeln, "cx1" und "cx2".
+    // Er liest die x-Koordinate des Mittelpunks von den beiden Kreisen aus und speichert sie ab.
+    // Danach wird eine bedingte Anweisung ausgeführt, die die neuen Geschwindigkeiten der beiden Kreise berechnet, falls eine bestimmte Bedingung erfüllt ist (in diesem Fall ist die Bedingung "false", sodass die Berechnung der neuen Geschwindigkeiten nicht ausgeführt wird).
     let cx1 = parseFloat(circle1.getAttribute("cx"))     
     let cx2 = parseFloat(circle2.getAttribute("cx"))     
 
