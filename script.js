@@ -29,7 +29,17 @@ function start() {
     v1 = -1
     v2 = 0
     window.requestAnimationFrame(animationLoop)
+
 }
+
+// Hab die Funktion requestAnimationFrame dennoch nicht gefunden. Demnach hab ich einfach eine neue erstellt.
+function requestAnimationFrame() {
+if (cx2 <= 95) {
+  requestAnimationFrame();
+
+}
+}
+
 
 
 function animationLoop() {
