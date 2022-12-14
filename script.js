@@ -1,6 +1,12 @@
 
 // Kommentiere hier (b)
-// 
+// Mit dem Schlüsselwort const werden zwei Variablen, circle1 und circle2, definiert, die auf die Elemente auf der Seite mit den IDs "#circ1" bzw. 
+//"#circ2" gesetzt werden. Mit dem Schlüsselwort let werden mehrere andere Variablen definiert, darunter running, v1, v2, digits, m, repetitions und count, die alle anfänglich auf 0, -1, 0, 1, 100, 1 bzw. 0 gesetzt sind. 
+// Diese Variablen werden wahrscheinlich zur Steuerung der Animation verwendet. 
+//Die Funktion start() wird definiert, um die Variable running auf true zu setzen und die cx-Attribute von circle1 und circle2 auf bestimmte Werte zu setzen. 
+//Sie setzt auch die Variable count auf 0 und die Variablen v1 und v2 auf -1 bzw. 0. Schließlich wird die Funktion window.requestAnimationFrame() mit der Funktion animationLoop als Argument aufgerufen, was dazu führt, dass animationLoop wiederholt mit einer vom Browser festgelegten Rate aufgerufen wird. Die Funktion animationLoop() ist in diesem Code nicht definiert, daher ist nicht klar, was sie tut.
+
+
 const circle1 = document.querySelector("#circ1")
 const circle2 = document.querySelector("#circ2")
 
