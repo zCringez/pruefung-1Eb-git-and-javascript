@@ -2,6 +2,8 @@
 // Kommentiere hier (b)
 // 
 const svg = document.querySelector("#svg-field")
+const circle1 = document.querySelector("#circ1")
+const circle2 = document.querySelector("#circ2")
 
 let running = false
 
