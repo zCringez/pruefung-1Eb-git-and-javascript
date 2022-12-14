@@ -31,6 +31,9 @@ function start() {
     window.requestAnimationFrame(animationLoop)
 
 }
+document.getElementById("#Zahl").textContent = displayNumber();
+
+
 
 // Hab die Funktion requestAnimationFrame dennoch nicht gefunden. Demnach hab ich einfach eine neue erstellt.
 function requestAnimationFrame() {
