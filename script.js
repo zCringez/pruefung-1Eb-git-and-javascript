@@ -20,7 +20,7 @@ let count = 0
  
 
 function start() {
-    const button = document.querySelector("START")
+    const button = document.querySelector("START");
 
     running = true
     circle1.setAttribute("cx", 80)
@@ -30,7 +30,7 @@ function start() {
     v2 = 0
     window.requestAnimationFrame(animationLoop)
 }
-const button = document.querySelector("START");
+
 
 function animationLoop() {
     
@@ -83,4 +83,10 @@ function newVelocity(v1, v2) {
 
 function displayNumber() {
     return (count / 10**digits).toFixed(digits)
+}
+
+function stop () {
+    const button = document.querySelector("STOP");
+
+
 }
