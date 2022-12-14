@@ -73,6 +73,9 @@ for (let i = 0; i < repititions; i++) {
     // Dieser Code fügt die aktuellen Geschwindigkeiten der beiden Kreise zu ihren x-Koordinaten hinzu, um die neuen x-Koordinaten der Kreismittelpunkte zu berechnen.
     // Hierbei wird die Geschwindigkeit durch die Anzahl ("repetitions") geteilt, um die Änderung der x-Koordinate  (in kleinen Schritten) darzustellen.
     // Nach Ausführung dieser Anweisung werden die neuen x-Koordinaten in den Variablen "cx1" und "cx2" gespeichert.
+    let digits = 5;
+    let repetitions = 10000;
+    
     cx1 = cx1 + v1 / repetitions
     cx2 = cx2 + v2 / repetitions
 
